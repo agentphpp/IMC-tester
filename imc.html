@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://tse1.mm.bing.net/th/id/OIP.8pEv1fxg6ccSqTOEWl82wQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img src="https://tse1.mm.bing.net/th/id/OIP.8pEv1fxg6ccSqTOEWl82wQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+        <h1>Calculadora</h1>
+    </header>
+
+    <main class="container-main">
+       
+            <div class="significado">
+                <fieldset>
+                    <h2>IMC significado</h1>
+                        <p><strong>O IMC (Índice de Massa Corporal)</strong> é tipo o "termômetro" da sua relação com a balança.
+                            Ele não mede gordura diretamente, mas dá um palpite bem educado sobre se o seu peso está condizente
+                            com a sua altura.</p>
+                </fieldset>
+            </div>
+      
+        
+        <form class="form">
+
+            <section>
+
+                <div class="part-form">
+                    <label for="name"></label>
+                    <input id="name" for="name" type="text" value="" placeholder="Seu nome">
+                </div>
+                <div class="part-form">
+                    <label id="name" for="last-name"></label>
+                    <input id="sobrenome" for="last-name" type="text" value="" placeholder="Seu ultimo nome">
+                </div>
+                <div class="part-form">
+                    <label for="idade"></label>
+                    <input id="idade" for="idade" type="number" value="" placeholder="Sua Idade">
+                </div>
+                <div class="part-form">
+                    <label for="altura"></label>
+                    <input id="altura" for="altura" type="text" value="" placeholder="Sua altura">
+                </div>
+                <div class="part-form">
+                    <label for="peso"></label>
+                    <input id="peso" for="peso" type="text" value="" placeholder="Seu peso">
+                </div>
+                <div class="part-form">
+                    <button onclick="Informacao();">Enviar</button>
+                </div>
+
+            </section>
+
+
+            <section id="texto">
+
+            </section>
+
+
+        </form>
+      
+        <div class="Descricao">
+
+        </div>
+
+    </main>
+
+    <script src="imc.js"></script>
+</body>
+
+</html>
