@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de IMC</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="https://tse1.mm.bing.net/th/id/OIP.8pEv1fxg6ccSqTOEWl82wQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" type="image/x-icon">
+    <link rel="shortcut icon"
+        href="https://tse1.mm.bing.net/th/id/OIP.8pEv1fxg6ccSqTOEWl82wQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+        type="image/x-icon">
 </head>
 
 <body>
@@ -16,20 +18,31 @@
     </header>
 
     <main class="container-main">
-       
-            <div class="significado">
-                <fieldset>
-                    <h2>IMC significado</h1>
-                        <p><strong>O IMC (Índice de Massa Corporal)</strong> é tipo o "termômetro" da sua relação com a balança.
-                            Ele não mede gordura diretamente, mas dá um palpite bem educado sobre se o seu peso está condizente
-                            com a sua altura.</p>
-                </fieldset>
-            </div>
-      
-        
+
+        <div class="significado">
+            <fieldset>
+                <h2>IMC significado</h1>
+                    <p><strong>O IMC (Índice de Massa Corporal)</strong> é tipo o "termômetro" da sua relação com a
+                        balança.
+                        Ele não mede gordura diretamente, mas dá um palpite bem educado sobre se o seu peso está
+                        condizente
+                        com a sua altura.</p>
+            </fieldset>
+        </div>
+
+
         <form class="form">
 
             <section>
+                <div class="Parts-Forms">
+                    <legend>Seu genero</legend>
+                    <br>
+                    <input type="radio" name="genero" id="homem" value="homem" class="genero">
+                    <label for="homem" class="btn">Homem</label>
+
+                    <input type="radio" name="genero" id="mulher" value="mulher" class="genero">
+                    <label for="mulher" class="btn">Mulher</label>
+                </div>
 
                 <div class="part-form">
                     <label for="name"></label>
@@ -39,6 +52,7 @@
                     <label id="name" for="last-name"></label>
                     <input id="sobrenome" for="last-name" type="text" value="" placeholder="Seu ultimo nome">
                 </div>
+
                 <div class="part-form">
                     <label for="idade"></label>
                     <input id="idade" for="idade" type="number" value="" placeholder="Sua Idade">
@@ -52,7 +66,7 @@
                     <input id="peso" for="peso" type="text" value="" placeholder="Seu peso">
                 </div>
                 <div class="part-form">
-                    <button onclick="Informacao();">Enviar</button>
+                    <button >Enviar</button>
                 </div>
 
             </section>
@@ -64,7 +78,7 @@
 
 
         </form>
-      
+
         <div class="Descricao">
 
         </div>
