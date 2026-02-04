@@ -125,11 +125,12 @@ section {
 }
 
 .genero {
-   
+   display: none;
 }
 
 @media (max-width: 768px) {
     form {
         flex-direction: column;
     }
+
 }
